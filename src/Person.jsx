@@ -31,7 +31,7 @@ const Person = () => {
     };
     return (
       <div>
-        <h4>component has been re-rendered for {count} Times</h4>
+        <h4><center>component has been re-rendered for {count} Times</center></h4>
         <input
           id='search'
           type="text"
@@ -43,7 +43,7 @@ const Person = () => {
           {intervalId ? 'Translating' : 'Translate'}
         </button>
         <br />
-        <span>  NOTE: Only LowerCase is allowed</span>
+        <span> <center> NOTE: Only LowerCase is allowed</center></span>
         <div className='container'>
           {console.log(count)}
           <img className='img' src={images[count]} />
